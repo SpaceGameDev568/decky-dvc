@@ -1,7 +1,7 @@
 {
-  "name": "decky-plugin-template",
-  "version": "0.0.1",
-  "description": "A template to quickly create decky plugins from scratch, based on TypeScript and webpack",
+  "name": "decky-dvc",
+  "version": "1.0.0",
+  "description": "A Decky Plugin to enable Discord Voice Chat via the Social SDK. Note: This is not an official product by Discord.",
   "type": "module",
   "scripts": {
     "build": "rollup -c",
@@ -10,24 +10,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SteamDeckHomebrew/decky-plugin-template.git"
+    "url": "git+https://github.com/SpaceGameDev/decky-dvc.git"
   },
   "keywords": [
-    "decky",
-    "plugin",
-    "plugin-template",
-    "steam-deck",
-    "deck"
+    "discord",
+    "voice-chat"
   ],
-  "author": "You <you@you.tld>",
+  "author": "SpaceGameDev <space@spacegamedev.com>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/SteamDeckHomebrew/decky-plugin-template/issues"
+    "url": "https://github.com/SpaceGameDev/decky-dvc/issues"
   },
-  "homepage": "https://github.com/SteamDeckHomebrew/decky-plugin-template#readme",
+  "homepage": "https://github.com/SpaceGameDev/decky-dvc#readme",
   "devDependencies": {
     "@decky/rollup": "^1.0.2",
-    "@decky/ui": "^4.11.0",
+    "@decky/ui": "^4.12.0",
     "@rollup/rollup-linux-x64-musl": "^4.53.3",
     "@types/react": "19.1.1",
     "@types/react-dom": "19.1.1",
