@@ -55,3 +55,9 @@ out/*
 cli/
 cli/*
 cli/decky
+
+# Ignore proprietary Discord Social SDK files
+lib/discord_social_sdk
+
+# Ignore CMake files
+build
